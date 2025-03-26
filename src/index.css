@@ -11,6 +11,15 @@
   }
   
   body {
-    @apply antialiased bg-black;
+    @apply antialiased bg-[#0A0A0B];
   }
+}
+
+.gradient-bg {
+  background: radial-gradient(circle at top center, rgba(37, 99, 235, 0.1) 0%, rgba(0, 0, 0, 0) 50%),
+              radial-gradient(circle at bottom right, rgba(236, 72, 153, 0.1) 0%, rgba(0, 0, 0, 0) 50%);
+}
+
+.glow {
+  box-shadow: 0 0 80px -20px rgba(37, 99, 235, 0.2);
 }
